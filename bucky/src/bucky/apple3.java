@@ -6,14 +6,20 @@ public class apple3 {
 
 	public static void main(String[] args) {
 	
-		final Formatter x;
+//		final Formatter x;
+//		
+//		try {
+//			x = new Formatter("newgreg.txt");
+//			System.out.print("file created");
+//		} catch (Exception e) {
+//			System.out.print("there's an error");
+//		}
+//
 		
-		try {
-			x = new Formatter("newgreg.txt");
-			System.out.print("file created");
-		} catch (Exception e) {
-			System.out.print("there's an error");
-		}
+		createfile c = new createfile();
+		c.openFile();
+		c.addRecords();
+		c.closeFile();
 		
 	}
 	
