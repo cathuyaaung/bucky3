@@ -4,7 +4,7 @@ import java.io.File;
 
 public class apples2 {
 	
-	public static void main(String[] args) {
+	public static void main2(String[] args) {
 		
 		File x = new File("C:\\test\\greg.txt");
 		if (x.exists()) {
