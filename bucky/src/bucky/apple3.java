@@ -16,12 +16,17 @@ public class apple3 {
 //		}
 //
 		
-		createfile c = new createfile();
-		c.openFile();
-		c.addRecords();
-		c.addRecords();
-		c.addRecords();
-		c.closeFile();
+//		createfile c = new createfile();
+//		c.openFile();
+//		c.addRecords();
+//		c.addRecords();
+//		c.addRecords();
+//		c.closeFile();
+
+		readfile r = new readfile();
+		r.openFile();
+		r.readFile();
+		r.closeFile();		
 		
 	}
 	
