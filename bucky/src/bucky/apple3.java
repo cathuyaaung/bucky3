@@ -4,7 +4,7 @@ import java.util.Formatter;
 
 public class apple3 {
 
-	public static void main(String[] args) {
+	public static void main3(String[] args) {
 	
 //		final Formatter x;
 //		
