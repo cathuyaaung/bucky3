@@ -4,7 +4,7 @@ import javax.swing.JFrame;
 
 public class bucky {
 
-	public static void main(String[] args) {
+	public static void main3(String[] args) {
 		
 //		Layout l = new Layout();
 //		l.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
