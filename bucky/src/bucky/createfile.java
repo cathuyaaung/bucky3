@@ -16,7 +16,7 @@ public class createfile {
 	}
 	
 	public void addRecords() {
-		x.format("%s %s %s", "username", "firstname", "lastname");
+		x.format("%s %s %s\n", "username", "firstname", "lastname");
 		System.out.println("added records");
 	}
 	
